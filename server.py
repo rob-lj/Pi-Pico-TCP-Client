@@ -1,3 +1,9 @@
+#
+# Copyright (c) 2024 Robert Littlejohns
+#
+# SPDX-License-Identifier: MIT
+#
+
 import select, socket
 from datetime import datetime
   

@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2024 Robert Littlejohns
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include <stdio.h>
 #include <stdbool.h>
 
