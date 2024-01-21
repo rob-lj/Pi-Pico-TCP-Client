@@ -318,9 +318,10 @@ int main() {
         // Disconnect from Wi-Fi
         // ------------------------------------------------------------------------
 
+        // De-initialise and power off Wi-Fi chip
+        cyw43_arch_deinit();
+
         if (app_state->state == DNS || app_state->state == WIFI) {
-            // De-initialise and power off Wi-Fi chip
-            cyw43_arch_deinit();
             printf("Disconnected from Wi-Fi\n");
         }
 
